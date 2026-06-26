@@ -1,16 +1,61 @@
-# React + Vite
+# DWWM React Flow - Développeur Web & Web Mobile
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Une application interactive de visualisation de la structure et de la progression du cursus **Développeur Web & Web Mobile** (DWWM).
 
-Currently, two official plugins are available:
+## 🎯 Description
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+Cette application utilise **React Flow** pour créer un diagramme interactif montrant :
 
-## React Compiler
+- **Les deux domaines principaux** :
+  - 🎨 **Front-end** : Algorithme, Maquettage, Web (HTML, CSS, JavaScript, API, Versionning)
+  - 🔧 **Back-end** : SQL (MYSQL, CRUD), PHP (Sécurité)
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+- **Une hiérarchie détaillée** des compétences et sous-compétences
+- **Des connexions animées** du titre principal vers les domaines
 
-## Expanding the ESLint configuration
+## 🚀 Caractéristiques
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+- ✨ Visualisation interactive avec React Flow
+- 🎨 Groupes colorés pour différencier Front-end et Back-end
+- 🔗 Edges animés pour le titre principal
+- 📱 Interface réactive et intuitive
+- 🎯 Navigation fluide dans la hiérarchie des compétences
+
+## 📋 Structure
+
+Le diagramme organise les compétences selon plusieurs niveaux :
+
+### Front-end
+- **Algorithme** → Pseudo-code
+- **Maquettage**
+- **Web**
+  - HTML → HTML 5, Formulaire, Accessibilité
+  - CSS → Responsivité, SaSS, Bootstrap
+  - JavaScript → Dynamisme, Objet, NPM
+  - API → JSON
+  - Versionning → GIT → Base, GitHub, GitLab
+
+### Back-end
+- **SQL**
+  - MYSQL → CRUD → Create, Read, Update, Delete
+- **PHP**
+  - Sécurité → CSRF, Session, Cookie, Token, Hash → Mot de passe
+
+## 💻 Installation
+
+```bash
+npm install
+npm run dev
+```
+
+## 📦 Dépendances
+
+- React
+- React Flow
+- Vite
+
+## 🔧 Technologies
+
+- **React** : Framework UI
+- **Vite** : Build tool
+- **React Flow** : Visualisation de diagrammes interactifs
