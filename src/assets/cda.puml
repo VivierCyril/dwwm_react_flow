@@ -1,0 +1,268 @@
+@startmindmap MindMap CDA
+*[#Orange] CDA
+ *[#lightgreen] Algorithme
+  * Pseudo-langage
+   *[#FFBBCC] JAVA
+    *[#WhiteSmoke] Caractériqtiques
+     * Compilé
+      * JVM 
+       * ByteCode 
+        * JAR
+     *[#lightblue] JDK 
+     * Typage fort 
+     *[#OrangeRed] Sécurité 
+    *[#WhiteSmoke] Qualité 
+     * Convention de nommage
+     * Javadoc
+     * Indentations
+     * Factorisation du code 
+     * Clean code 
+      *_ KISS
+      *_ DRY 
+      *_ YAGNI
+      *_ TL;DR 
+    *[#WhiteSmoke] IDE 
+     *[#lightblue] Intellij IDEA 
+     *[#lightblue] VSCode / VSCodium
+    *[#WhiteSmoke] Gestion de Projet 
+     *[#lightblue] Maven
+      * pom.xml
+       * dépendances 
+        *[#lightblue] JUnit
+        *[#lightblue] MySQL Connector 
+        *[#lightblue] ... Maven Repository
+      * cycle de vie 
+       * clean 
+       * package 
+       * ...
+    *[#WhiteSmoke] Tests 
+     * Unitaires 
+      *[#lightblue] JUnit Jupiter
+     * Intégrations 
+      *[#lightblue] Mockito
+     * Fontionnels
+      *[#lightblue] Selenium
+     * Plan de tests
+     *[#lightblue] Allure Report
+    *[#WhiteSmoke] Architecture
+     * Pattern 
+      *[#Gold] MVC
+       * Modèle
+        * classe Métier 
+         * Constructeur
+         * Getter / Setter 
+          *[#OrangeRed] Codage défensif
+       * Vue 
+        * UX/UI 
+         * Maquettage
+          *[#lightblue] Pencil 
+          *[#lightblue] Balsamiq Mockups 
+         * Interface Utilisateur
+          *[#OrangeRed] Codage défensif     
+       * Contrôleur
+        * logique métier entre Vue et Modèle
+      *[#Gold] MVVM
+      *[#Gold] MVP
+    *[#WhiteSmoke] Gestion des erreurs 
+     *[#OrangeRed] Exceptions
+      *_ try-catch-finally 
+     *[#OrangeRed] Logger 
+      *[#lightblue] JUL
+      *[#lightblue] LOG4j
+      *[#lightblue] SL4J
+    *[#WhiteSmoke] Desktop
+     *[#lightblue] JavaFx 
+     *[#lightblue] Swing 
+      * gestion des évènements
+    *[#WhiteSmoke] POO 
+     * Héritage
+      * Polymorphisme
+      * Encapsulation
+       *_ private 
+       *_ public 
+       *_ protected 
+      * Surcharge 
+      * Abstraction 
+     * Notion de classes 
+      * static 
+      * Instance 
+       *_ new Classe() 
+    *[#WhiteSmoke] PERSISTANCE
+     * Pattern 
+      *[#Gold] Singleton
+      *[#Gold] DAO 
+       * Classe abstract 
+       * Interface 
+     *[#OrangeRed] Sécurité 
+      * Injections SQL 
+       * Requêtes préparées 
+     * JDBC 
+      * Driver 
+       *[#lightblue] MySql Connector 
+    *[#WhiteSmoke] JPA
+     *[#WhiteSmoke] HIBERNATE
+      *[#lightblue] SPRINGBOOT
+       *[#lightblue] SPRING Security
+       * WEB
+       * API
+        *[#FFBBCC] OPENAPI
+         *[#lightblue] Swagger
+        *[#FFBBCC] Actuator
+         *[#FFBBCC] AOP 
+          *[#FFBBCC] Micrometer
+           * Metric 
+            * @Counted
+           *[#FFBBCC] Observation
+         *[#lightblue] Prometheus
+          *[#lightblue] Grafana
+ *[#lightgreen] WEB
+  *[#FFBBCC] HTML 
+   *[#lightblue] BOOTSTRAP
+  *[#FFBBCC] CSS 
+   * SASS
+  *[#FFBBCC] JAVASCRIPT
+   * Asynchrone vs Synchrome
+  *[#FFBBCC] API 
+   * JSON
+  *[#FFBBCC] HTTPS
+   *_ POST
+   *_ GET 
+   *_ PUT 
+   *_ HEAD
+  *[#FFBBCC] JAVAEE
+   * compilé 
+    * war
+   * Serveur WEB 
+    *[#lightblue] TOMCAT
+   *[#FFBBCC] JAKARTA
+    * Listener
+    * Filter
+    * Servlet
+    * JSP 
+     * JSTL
+     * EL 
+   * Architecture
+    * Pattern
+     *[#Gold] FrontController 
+    * JDBC 
+     * DATASOURCE 
+   *[#OrangeRed] Sécurité
+    * CSRF 
+    * Session 
+    * Cookie 
+    * Token 
+    * Hash 
+     * Mot de passe
+
+
+left side 
+**[#lightgreen] ECO-CONCEPTION
+**[#OrangeRed] SECURITE
+ ***[#FFBBCC] ANSII 
+  ****_ https://cyber.gouv.fr/
+**[#OrangeRed] LEGISLATION
+ ***[#FFBBCC] RGPD
+  **** CNIL 
+   *****_ https://www.cnil.fr/fr 
+ ***[#FFBBCC] RGAA 
+  ****_ https://accessibilite.numerique.gouv.fr/
+**[#lightgreen] GESTION DE PROJET
+ ***[#FFBBCC] AGILE 
+  **** SCRUM 
+   *****_ SPRINT
+   *****_ USER STORIES 
+   *****_ MELEE 
+   *****_ SCRUM MASTER 
+  **** KANBAN
+ ***[#FFBBCC] TRELLO
+**[#lightgreen] OUTILS CONCEPTION 
+ ***[#FFBBCC] MERISE
+  ****[#lightblue] POWER DESIGNER / LOOPING
+   ***** Dictionnaire des données 
+    ****** MCD 
+     ******* Cardinalités
+     ******* MLD / MPD
+      ******** Génération Script SQL
+       *********_ Create Database
+       *********_ Create Table
+      ******** Clés primaire
+      ******** Clés étrangères
+      ******** Contraintes
+  ***[#FFBBCC] UML
+   **** Diagrammes de classes
+    ***** multiplicités 
+   **** Use Case 
+   **** Diagramme de séquences
+**[#lightgreen] SQL 
+ ***[#FFBBCC] MYSQL
+   ****[#lightblue] WORKBENCH
+   **** CRUD
+    *****_ Insert
+    *****_ Select
+    *****_ Update
+    *****_ Delete
+   **** Trigger
+   **** Procédures et fonctions
+   **** Jointure
+    ***** Join 
+     ******_ Left 
+     ******_ right
+     ******_ inner
+     ******_ full
+   **** Sécurité 
+    ***** Droits 
+     ******_ Grant
+     ******_ Revoke
+**[#lightgreen] VERSIONNING
+ ***[#lightblue] GIT
+  ****_ Add 
+   *****_ commit 
+    ******_ push / pull / clone
+  **** les branches
+   *****_ checkout / branch
+   *****_ merge 
+ *** Outils
+  ****[#lightblue] GITKRAKEN
+ *** Dépots distant
+  ****[#lightblue] GITHUB 
+  ****[#lightblue] GITLAB
+**[#lightgreen] DEVOPS
+ ***[#FFBBCC] CI/CD
+  ****[#lightblue] GITHUB ACTIONS 
+   ***** Workflow
+   ***** Actions
+   ***** Trigger
+   ***** Executeurs
+   ***** Secrets
+   ***** Checkout
+  ****[#lightblue] JENKINS 
+   ***** pipeline
+   ***** Trigger
+   ***** Jobs
+   ***** Jenkinsfile
+ ***[#FFBBCC] DEPLOIEMENT
+  **** TYPE
+  **** PLAN
+  ****[#lightblue] DOCKER
+   ***** Image DOCKER 
+   ***** Conteneur
+   ***** Dockerfile
+   ***** docker-compose
+** Documentations et Schémas
+ ***[#lightblue] Maven 
+  ****_ mvn site
+ ***[#lightblue] Markdown
+  ****_ https://www.markdownlang.com/fr/
+ ***[#lightblue] PlantUML
+  ****_ https://plantuml.com/fr/
+ ***[#lightblue] Mermaid
+  ****_ https://mermaid.js.org/
+  
+@endmindmap
+
+
+
+
+
+
+
